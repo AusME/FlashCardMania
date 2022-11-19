@@ -3,8 +3,10 @@ package name.benshepley.flashcardmania.model.entity;
 import javax.persistence.Basic;
 import javax.persistence.Entity;
 import javax.persistence.Id;
+import javax.persistence.Table;
 
 @Entity
+@Table(name = "flash_card")
 public class FlashCardEntity {
     @Id
     private Long id;
